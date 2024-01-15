@@ -21,6 +21,7 @@ body{
 
 .nav-container img{
     width: 48px;
+    padding-right: 10px;
 }
 
 .nav-container p{
@@ -32,6 +33,7 @@ body{
 }
 .GO{
     color: #131318;
+    padding-left: 10px;
 } 
 .travel{
     color: #FF5400;
@@ -157,3 +159,81 @@ body{
     color: #FFF;
 }
 /* Hero section end here */
+/* Popular Tours section start here */
+.popular-tours{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.tours-text{
+    height: auto;
+    display: block;
+    width: auto;
+    padding-right: 30px;
+}
+.tours-text h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.f-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0px;
+}
+.tours-text li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 10px;
+}
+.l-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.read-more-btn{
+    width: 174px;
+    height: 52px;
+    border-radius:8px;
+    border: 0;
+    color: #FFF;
+    background: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.read-more-btn:hover{
+    background-color: #3e8e41;
+    color: #FFF;
+}  
+
+.tours-img{
+    height: auto;
+    display: block;
+    align-items: center;
+    width: auto;
+}
+/* Popular Tours section end here */
