@@ -1,4 +1,159 @@
-*{
-    width: 0px;
-    height: 0px;
+/* Shared code */
+body{
+    font-family: 'Mulish', sans-serif;
 }
+*{
+    margin:0px
+}
+
+/* Nav section css start here */
+.nav-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 52px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container img{
+    width: 48px;
+}
+
+.nav-container p{
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.GO{
+    color: #131318;
+} 
+.travel{
+    color: #FF5400;
+} 
+.home-color{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.menu-container a{
+    text-decoration: none;
+    color: #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Nav section css start here */
+
+/* Hero section start here */
+.hero-section{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/group-13.png);
+    border-radius: 16px;
+}
+.hero-section-text{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 1170px;
+    height: 500px;
+
+}
+.hero-explore{
+    margin: 0px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 106px 287px 0px 287px;
+
+}
+.hero-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    padding-left: 287px;
+    padding-right: 287px;
+}
+.selection-input{
+    margin: 0px 187px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.form input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.find-now-btn{
+    width: 174px;
+    height: 52px;
+    border-radius:8px;
+    border: 0;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.find-now-btn:hover{
+    background-color: #3e8e41;
+    color: #FFF;
+}
+/* Hero section end here */
