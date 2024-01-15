@@ -237,3 +237,174 @@ body{
     width: auto;
 }
 /* Popular Tours section end here */
+
+/* Destination section start here */
+.destination{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+.destination .h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 256px;
+}
+.destination-img{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.img-1{
+    width: 573px;
+    height: 300px;
+}
+.img-2{
+    width: 573px;
+    height: 300px;
+}
+.img-3{
+    width: 374px;
+    height: 286px;
+}
+.img-4{
+    width: 474px;
+    height: 286px;
+}
+.img-5{
+    width: 274px;
+    height: 286px;
+}
+.img-6{
+    width: 473px;
+    height: 300px;
+}
+.img-7{
+    width: 673px;
+    height: 300px;
+}
+.img-row1{
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+.img-row2{
+    display: flex;
+    gap: 24px;
+    padding: 24px 0px;
+    position: relative;
+}
+.img-row3{
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+.Maldives-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .indonesia-text {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .srilanka-text {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .north-us-text {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .kashmir-text {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .bangla-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .bandarban-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+/* Destination section end here */
