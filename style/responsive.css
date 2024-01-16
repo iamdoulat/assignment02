@@ -1,0 +1,48 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-section{
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 52px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-container{
+        flex-direction: column;
+    }
+    .menu-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+/* hero section start*/
+    .hero-section{
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .hero-section-text{
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+    }
+    .hero-explore{
+        font-size: 22px;
+        padding: 32px 66px 10px 66px;
+    }
+    .hero-text{
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 5px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .selection-input{
+        flex-direction: column;
+    }
+
+
+
+  }
+  /* hero section end */
