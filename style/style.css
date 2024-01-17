@@ -3,7 +3,7 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 *{
-    margin:0px
+    margin:0px;
 }
 
 /* Nav section css start here */
@@ -61,6 +61,13 @@ body{
 }
 /* Nav section css start here */
 
+/* desktop nav start */
+
+.mobile-nav-section{
+    display: none;
+}
+
+/* desktop nav end */
 /* Hero section start here */
 .hero-section{
     max-width: 1170px;
@@ -231,7 +238,7 @@ body{
     color: #FFF;
 }  
 
-.tours-img{
+.tours-img img{
     height: auto;
     display: block;
     align-items: center;
@@ -273,32 +280,32 @@ body{
     align-items: center;
 }
 .img-1{
-    width: 573px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 .img-2{
-    width: 573px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 .img-3{
-    width: 374px;
-    height: 286px;
+    width: 100%;
+    height: auto;
 }
 .img-4{
-    width: 474px;
-    height: 286px;
+    width: 100%;
+    height: auto;
 }
 .img-5{
-    width: 274px;
-    height: 286px;
+    width: 100%;
+    height: auto;
 }
 .img-6{
-    width: 473px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 .img-7{
-    width: 673px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 .img-row1{
     display: flex;

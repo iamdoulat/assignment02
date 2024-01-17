@@ -1,33 +1,78 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body{
+        font-family: 'Mulish', sans-serif;
+        max-width: 400px;
+    }
+    *{
+        margin:2px;
+    }
+    /* desktop nav start */
     .nav-section{
-        margin: 0 auto;
-        flex-direction: column;
-        margin-top: 52px;
-        justify-content: space-between;
-        align-items: center;
+        display: none;
     }
-    .nav-container{
-        flex-direction: column;
-    }
-    .menu-container {
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 30px;
-    }
-    
+    /* desktop nav end */
+
+/* nav only for mobile */
+    .mobile-nav-section{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.mobile-nav-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.mobile-nav-container img{
+    width: 48px;
+    padding-left: 10px;
+}
+
+.nav-container p{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.GO{
+    color: #131318;
+    margin-left: 20px;
+    font-weight: 800;
+} 
+.travel{
+    color: #FF5400;
+    margin: 2px;
+    font-weight: 800;
+} 
+
+.mobile-menu-container{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+}
+/* nav only for mobile*/
+
     .hero-section{
         flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
     .hero-section-text{
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-        width: 430px;
+        width: 400px;
         height: auto;
     }
     .hero-explore{
         font-size: 22px;
-        padding: 32px 66px 10px 100px;
+        padding: 32px 66px 0px 100px;
 
     }
     .hero-text{
@@ -40,7 +85,8 @@
     }
 
     .selection-input{
-        margin: 0px 17px;
+        width: 400px;
+        margin: 0px 0px;
     }
     .form input{
         width: 360px;
@@ -57,8 +103,9 @@
         height: 52px;
     }
     .popular-tours{
-        width: 400px;
-        margin-top: 24px;
+        max-width: 400px;
+        height: auto;
+        margin-top: 0px;
         margin-bottom: 50px;
         flex-direction: column;
         align-items: center;
@@ -66,11 +113,15 @@
     .tours-text{
         height: auto;
         display: block;
+        padding-bottom: 10px;
         padding-right: 30px;
         padding-left: 30px;
     }
     .tours-text h2{
         font-size: 20px;
+    }
+    .f-text{
+        padding: 10px 0px;
     }
     .read-more-btn{
         width: 174px;
@@ -81,19 +132,20 @@
         color: #FFF;
     }  
     
-    .tours-img{
+    .tours-img img{
+        width: 370px;
+
         height: auto;
-        width: 380px;
-        display: none;
     }
     .destination{
         width: 335px;
-        height: 342px;
+        height: auto;
         margin: 0 auto;
-        margin-top: 220px;
+        margin-top: 10px;
     }
     .destination .h2{
         font-size: 20px;
+        margin-top: 10px;
     }
     .destination p{
         font-size: 14px;
@@ -101,57 +153,77 @@
     }
 
     .destination-img{
-        display: none;
-        width: 380px;
+        width: 370px;
+        max-width: 370px;
+        margin-bottom: 20px;
     }
     
-    .img-1{
-        width: 300px;
-        height: 300px;
+    .img-1 img{
+        width: 370px;
+        height: auto;
+        margin-bottom: 10px;
     }
-    .img-2{
-        width: 300px;
-        height: 300px;
+    .img-2 img{
+        width: 370px;
+        height: auto;
     }
-    .img-3{
-        width: 300px;
-        height: 300px;
+    .img-3 img{
+        width: 370px;
+        height: auto;
     }
-    .img-4{
-        width: 300px;
-        height: 300px;
+    .img-4 img{
+        width: 370px;
+        height: auto;
     }
-    .img-5{
-        width: 300px;
-        height: 300px;
+    .img-5 img{
+        width: 370px;
+        height: auto;
     }
-    .img-6{
-        width: 300px;
-        height: 300px;
+    .img-6 img{
+        width: 370px;
+        height: auto;
     }
-    .img-7{
-        width: 30px;
-        height: 300px;
-        background-size: contain;
+    .img-7 img{
+        width: 370px;
+        height: auto;
     }
     .img-row1{
         flex-direction: column;
-        gap: 24px;
-    }
+     }
     .img-row2{
         flex-direction: column;
         width: 300px;
-        gap: 24px;
     }
     .img-row3{
         flex-direction: column;
         width: 300px;
     }
+    .Maldives-text{
+        display: none;
+    }
+    .indonesia-text{
+        display: none;
+    }
+    .srilanka-text{
+        display: none;
+    }
+    .north-us-text{
+        display: none;
+    }
+    .kashmir-text{
+        display: none;
+    }
+    .bangla-text{
+        display: none;
+    }
+    .bandarban-text{
+        display: none;
+    }
     
     .choose-us{
         max-width: 400px;
         margin: 0 auto;
-        margin-top: 49px;
+        margin-top: 0px;
     }
     .choose-us .h2{
         font-size: 20px;
@@ -217,17 +289,17 @@
         width: 400px;
         height: 500px;
         margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 10px;
         flex-direction: column;
     }
     .perfect-place-text{
         height: 600px;
         display: block;
         width: auto;
-        padding-bottom: 30px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .perfect-place-text h2{
         width: 248px;
