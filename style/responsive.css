@@ -1,20 +1,19 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body{
+body{
         font-family: 'Mulish', sans-serif;
-        max-width: 400px;
     }
     *{
         margin:2px;
     }
     /* desktop nav start */
-    .nav-section{
+.nav-section{
         display: none;
     }
     /* desktop nav end */
 
 /* nav only for mobile */
-    .mobile-nav-section{
+.mobile-nav-section{
     max-width: 400px;
     margin: 0 auto;
     display: flex;
@@ -60,49 +59,48 @@
 }
 /* nav only for mobile*/
 
-    .hero-section{
-        flex-direction: column;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .hero-section-text{
-        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-        width: 400px;
-        height: auto;
-    }
-    .hero-explore{
-        font-size: 22px;
-        padding: 32px 66px 0px 100px;
+.hero-section{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hero-section-text{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 400px;
+    height: auto;
+}
+.hero-explore{
+    font-size: 22px;
+    padding: 32px 66px 0px 100px;
+}
+.hero-text{
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 5px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
-    }
-    .hero-text{
-        font-size: 14px;
-        line-height: 21px;
-        padding-top: 5px;
-        padding-bottom: 32px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .selection-input{
-        width: 400px;
-        margin: 0px 0px;
-    }
-    .form input{
+.selection-input{
+    width: 400px;
+    margin: 0px 0px;
+}
+.form input{
         width: 360px;
         text-align: left;
         margin-bottom: 20px;
     }
-    .form select{
+.form select{
         width: 360px;
         text-align: left;
         margin-bottom: 20px;
     }
-    .find-now-btn{
+.find-now-btn{
         width: 360px;
         height: 52px;
     }
-    .popular-tours{
+.popular-tours{
         max-width: 400px;
         height: auto;
         margin-top: 0px;
@@ -110,125 +108,125 @@
         flex-direction: column;
         align-items: center;
     }
-    .tours-text{
+.tours-text{
         height: auto;
         display: block;
         padding-bottom: 10px;
         padding-right: 30px;
         padding-left: 30px;
     }
-    .tours-text h2{
+.tours-text h2{
         font-size: 20px;
     }
     .f-text{
         padding: 10px 0px;
     }
-    .read-more-btn{
+.read-more-btn{
         width: 174px;
         height: 52px;
     }
-    .read-more-btn:hover{
+.read-more-btn:hover{
         background-color: #3e8e41;
         color: #FFF;
     }  
     
-    .tours-img img{
+.tours-img img{
         width: 370px;
 
         height: auto;
     }
-    .destination{
+.destination{
         width: 335px;
         height: auto;
         margin: 0 auto;
         margin-top: 10px;
     }
-    .destination .h2{
+.destination .h2{
         font-size: 20px;
         margin-top: 10px;
     }
-    .destination p{
+.destination p{
         font-size: 14px;
         padding: 24px 25px;
     }
 
-    .destination-img{
+.destination-img{
         width: 370px;
         max-width: 370px;
         margin-bottom: 20px;
     }
     
-    .img-1 img{
+.img-1 img{
         width: 370px;
         height: auto;
         margin-bottom: 10px;
     }
-    .img-2 img{
+.img-2 img{
         width: 370px;
         height: auto;
     }
-    .img-3 img{
+.img-3 img{
         width: 370px;
         height: auto;
     }
-    .img-4 img{
+.img-4 img{
         width: 370px;
         height: auto;
     }
-    .img-5 img{
+.img-5 img{
         width: 370px;
         height: auto;
     }
-    .img-6 img{
+.img-6 img{
         width: 370px;
         height: auto;
     }
-    .img-7 img{
-        width: 370px;
-        height: auto;
+.img-7 img{
+    width: 370px;
+    height: auto;
     }
-    .img-row1{
+.img-row1{
         flex-direction: column;
      }
-    .img-row2{
+.img-row2{
         flex-direction: column;
         width: 300px;
     }
-    .img-row3{
+.img-row3{
         flex-direction: column;
         width: 300px;
     }
-    .Maldives-text{
+.Maldives-text{
         display: none;
     }
-    .indonesia-text{
+.indonesia-text{
         display: none;
     }
-    .srilanka-text{
+.srilanka-text{
         display: none;
     }
-    .north-us-text{
+.north-us-text{
         display: none;
     }
-    .kashmir-text{
+.kashmir-text{
         display: none;
     }
-    .bangla-text{
+.bangla-text{
         display: none;
     }
-    .bandarban-text{
+.bandarban-text{
         display: none;
     }
     
-    .choose-us{
+.choose-us{
         max-width: 400px;
         margin: 0 auto;
         margin-top: 0px;
     }
-    .choose-us .h2{
+.choose-us .h2{
         font-size: 20px;
     }
-    .choose-us p{
+.choose-us p{
         color: rgba(19, 19, 24, 0.70);
         text-align: center;
         font-family: Mulish;
@@ -238,7 +236,7 @@
         line-height: 26px;
         padding: 24px 25px;
     }
-    .chose-us-box{
+.chose-us-box{
         width: 400px;
         margin: 0 auto;
         flex-direction: column;
@@ -246,35 +244,35 @@
         justify-content: center;
         align-items: center;
     }
-    .handpicked-hotels{
+.handpicked-hotels{
         width: 370px;
         height: 284px;
         align-items:center;
     }
-    .handpicked-hotels p{
-        width: 330px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        padding-right: 40px;
+.handpicked-hotels p{
+    width: 330px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 40px;
     }
-    .world-class-service{
-        width: 370px;
-        height: 284px;
-        align-items:center;
+.world-class-service{
+    width: 370px;
+    height: 284px;
+    align-items:center;
     }
 
-    .world-class-service p{
-        width: 330px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        padding-right: 40px;
-    }
-    .best-price{
-        width: 370px;
-        height: 284px;
-        align-items:center;
+.world-class-service p{
+    width: 330px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 40px;
+}
+.best-price{
+    width: 370px;
+    height: 284px;
+    align-items:center;
     }
 
 .best-price p{
@@ -303,11 +301,31 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    padding: 7px 18px;
+    padding: 16px 18px;
+}
+.deal-section2{
+    max-width: 1170px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 235px;
+}
+
+.deal-section3{
+    max-width: 1170px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: -145px;
+    margin-bottom: 200px;
 }
 .Satorini {
      width: 380px;
     height: 500px;
+}
+
+.Satorini1 {
+    width: 380px;
+   height: 500px;
 }
 .Satorini2 {
     width: 380px;
@@ -315,7 +333,7 @@
 }
 .package1 {
     width: 310px;
-    height: 328px;
+    height: 390px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -341,6 +359,44 @@
 .package1 p {
     width: 250px;
 }
+
+.package2 {
+    width: 322px;
+    height: 337px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 0px 10px;
+    display: block;
+    position: absolute;
+    bottom: 31px;
+    left: 20px;
+}
+.package2 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 0px;
+    padding-left: 44px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+.package2 p {
+    width: 250px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 7px 18px;
+}
+
 .package3 {
     width: 310px;
     height: 328px;
@@ -390,77 +446,77 @@
 }
 
 /* mobile deal end */
-    .simple-perfect-place{
-        width: 400px;
-        height: 500px;
-        margin: 0 auto;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        flex-direction: column;
-    }
-    .perfect-place-text{
-        height: 600px;
-        display: block;
-        width: auto;
-        padding-bottom: 10px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    .perfect-place-text h2{
-        width: 248px;
-        font-size: 20px;
-        line-height: 30px;
+.simple-perfect-place{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: -120px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.perfect-place-text{
+    height: 600px;
+    display: block;
+    width: auto;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.perfect-place-text h2{
+    width: 248px;
+    font-size: 20px;
+    line-height: 30px;
     }
     
-    .perfect-place-video{
-        display: none;
+.perfect-place-video{
+    display: none;
+}
+.newsletter{
+    width: 335px;
+    height: auto;
+    flex-direction: column;
+}
+.newsletter-box{
+    width: 335px;
+    height: 353px;
+    padding: 40px 30px;
+    flex-direction: column;
+}
+.newsletter-form #input1{
+    width: 330px;
+    height: 52px;
     }
-    .newsletter{
-        width: 335px;
-        height: auto;
-        flex-direction: column;
-    }
-    .newsletter-box{
-        width: 335px;
-        height: 353px;
-        padding: 40px 30px;
-        flex-direction: column;
-       }
-       .newsletter-form #input1{
-        width: 330px;
-        height: 52px;
-    }
-    .newsletter-form #input2{
-        width: 330px;
-        height: 52px;
+.newsletter-form #input2{
+    width: 330px;
+    height: 52px;
      }
-    .subscribe-btn{
-        width: 330px;
-        height: 52px;
+.subscribe-btn{
+    width: 330px;
+    height: 52px;
     }
-    .newsletter-img img{
-        width: 380px;
-        height: 300px;
+.newsletter-img img{
+    width: 380px;
+    height: 300px;
     }
-    .footer-container{
-        width: auto;
-        height: auto;
-        margin-top: 20px;
+.footer-container{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
     }
     /* .footer-nav-container{
         flex-direction: column;
     } */
-    .footer-text {
+.footer-text {
     flex-direction: column;
     padding: 16px 16px;
     font-size: 14px;
     }
-    .social-icon{
+.social-icon{
     width: auto;
     }
-    .copy-right{
-        flex-direction: column;
-        padding-bottom: 50px;
+.copy-right{
+    flex-direction: column;
+    padding-bottom: 50px;
     }
   }
 
